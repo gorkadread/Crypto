@@ -1,13 +1,27 @@
 import './App.css';
+// import Axios from "axios";
+import { useEffect/*, useState*/ } from 'react';
+// import Organisation from './Organisation';
 
-function App() {
+export default function App() {
+  // const [data, setData] = useState(null);
+
+  useEffect(() => {
+    /*Axios.get("https://date.nager.at/api/v2/publicholidays/2020/US").then(
+      (resp) => {
+        setData(resp.data);
+      }
+    );*/
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-          Show off
+          The Collector
       </header>
+      <div>
+        
+      </div>
     </div>
   );
 }
-
-export default App;
